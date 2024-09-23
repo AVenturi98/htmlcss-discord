@@ -200,12 +200,15 @@ select {
 }
 hr{
     color: aliceblue;
+    margin: auto 100px;
 }
 
 /* FOOT */
 
 .foot-bar {
-    border: none;
-    background-color: aqua;
     padding: 20px 0;
+}
+
+.cta-d {
+    background-color: royalblue;
 }
