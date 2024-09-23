@@ -18,7 +18,6 @@ a {
 /* HEADER */
 
 .main-header {
-    /* padding: 20px 40px; */
     font-size: 20px;
     color: white;
     background-image: url(../img/jumbo.png);
@@ -26,11 +25,9 @@ a {
 }
 
 .navbar {
-    /* background-color: bisque; */
     display: flex;
     justify-content: space-between;
     align-items: center;
-    /* border: 2px dashed black; */
     padding: 5px;
     margin: 20px auto;
 }
@@ -44,12 +41,6 @@ a {
     margin: 0 auto;
 }
 
-/* .logo {
-    border-right: 2px dashed black;
-    margin-right: auto;
-    padding-right: 20px;
-    margin: 0 auto;
-} */
 .form {
     border-radius: 30px;
     padding: 15px;
@@ -58,10 +49,6 @@ a {
 .cta {
     background-color: white;
     color: black;
-    /* margin: 0 auto; */
-    /* border-left: 2px dashed black;
-    margin-left: auto;
-    padding-left: 100px; */
 }
 
 .navbar, .container {
@@ -103,7 +90,7 @@ h1 {
     align-items: center;
 }
 
-.w-75 {
+.w-60 {
     width: 60%;
     margin: auto;
     width: 100%;
@@ -181,11 +168,6 @@ select {
     border: none;
 }
 
-/* select {
-    background-color: rgba(24, 21, 21, 0);
-    border: none;
-    color: white;
-} */
 .main-logo {
     display: flex;
     line-height: 10em;
@@ -198,6 +180,7 @@ select {
 .foot-title {
     color:royalblue;
 }
+
 hr{
     color: aliceblue;
     margin: auto 100px;
