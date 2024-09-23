@@ -51,6 +51,10 @@ a {
     padding-right: 20px;
     margin: 0 auto;
 } */
+.form {
+    border-radius: 30px;
+    padding: 15px;
+}
 
 .cta {
     background-color: white;
@@ -60,11 +64,18 @@ a {
     margin-left: auto;
     padding-left: 100px; */
 }
+
 .navbar, .container {
     margin: auto 100px;
 }
 
-/* LAYOUT 1 */
+
+h1 {
+    font-size: 35px;
+    margin: 30px auto;
+}
+
+/* SECTION 1 */
 
 #head-cont{
     margin: 50px 300px;
@@ -82,8 +93,6 @@ a {
 .cta-b {
     background-color: rgba(0, 0, 0, 0.836);
     color: white;
-    border-radius: 30px;
-    padding: 15px;
     margin-left: 10px;
 }
 
@@ -122,6 +131,9 @@ a {
 
 /* SECTION 5 */
 
+h2 {
+    margin: 20px auto;
+}
 .item-bg {
     display: flex;
     flex-wrap: wrap;
@@ -142,10 +154,16 @@ a {
     width: 100%;
 }
 
-/* SECTION 6 */
+/* FOOTER */
 
-.layout-6{
-    background-color: 
+.logo-sm {
+    width: 50px;
+    height: 50px;
+
+  
+}
+footer {
+    background-color: rgba(24, 21, 21, 0.918)
 }
 
 .h-td {
@@ -162,12 +180,6 @@ hr{
     color: aliceblue;
 }
 
-/* FOOTER */
-
-.footer {
-    background-color: rgb(39, 38, 38);
-}
-
 .foot-bar {
     border: none;
     background-color: aqua;
@@ -179,24 +191,8 @@ hr{
     background-color: coral;
     padding: 5px;
 }
-    
 
-/* DEBUG RULES */
-
-h1 {
-    font-size: 35px;
-    margin: 30px auto;
+.loghi {
+    display: flex;
+    line-height: 10em;
 }
-
-h2 {
-    margin: 20px auto;
-}
-
-.debug {
-    border-radius: 30px;
-    padding: 15px;
-}
-
-
-
-
