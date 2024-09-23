@@ -54,8 +54,6 @@ a {
 
 .cta {
     background-color: white;
-    border-radius: 30px;
-    padding: 15px;
     color: black;
     /* margin: 0 auto; */
     /* border-left: 2px dashed black;
@@ -68,13 +66,16 @@ a {
 
 /* LAYOUT 1 */
 
+#head-cont{
+    margin: 50px 300px;
+    text-align: center;
+}
+
 .container {
     display: flex;
     justify-content: center;
     align-items: center;
     padding: 12px 20px;
-    text-align: center;
-    margin: 50px 300px;
     min-height: 100%;
 }
 
@@ -86,37 +87,65 @@ a {
     margin-left: 10px;
 }
 
-
 /* SECTION 2 */
 
+.row {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
 .w-75 {
-    background-color: dodgerblue;
-    width: 75%;
-    padding: 80px 100px;
+    width: 60%;
+    margin: auto;
+    width: 100%;
 }
 
 .w-25 {
-    background-color: pink;
+    width: calc(100% / 2);
+    margin: auto 20px;
+    
 }
 
 /* SECTION 3 */
 
 .layout-3, .layout-5{
     background-color: lightgray;
+    padding: 25px;
+}
+
+/* SECTION 4 */
+
+.layout-4 {
+    padding: 25px;
 }
 
 /* SECTION 5 */
 
-.h-lg {
-    width: 600px;
-    height: 500px;
-    background-color: green;
+.item-bg {
+    display: flex;
+    flex-wrap: wrap;
+    text-align: center;
+}
+
+.cta-c {
+    background-color: dodgerblue;
+    color: white;
+    padding: auto;
+    width: 200px;
+    margin: 20px auto
+}
+
+.nav-butt {
+    background-image: url(../img/stars.svg);
+    background-size: contain;
+    width: 100%;
 }
 
 /* SECTION 6 */
 
 .layout-6{
-    background-color: rgb(39, 38, 38);
+    background-color: 
 }
 
 .h-td {
@@ -154,11 +183,19 @@ hr{
 
 /* DEBUG RULES */
 
-/* .debug .row > * {
-    border: 2px dashed black;
-}     */
+h1 {
+    font-size: 35px;
+    margin: 30px auto;
+}
 
+h2 {
+    margin: 20px auto;
+}
 
+.debug {
+    border-radius: 30px;
+    padding: 15px;
+}
 
 
 
