@@ -1,0 +1,152 @@
+/* RESET */
+
+* {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+
+ul, ol {
+    list-style: none;
+}
+
+a {
+    color: currentColor;
+    text-decoration: none;
+}
+
+/* HEADER */
+
+.main {
+    padding: 20px 40px;
+    font-size: 20px;
+}
+
+.header {
+    background-color: aquamarine;
+}
+
+.navbar {
+    background-color: bisque;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    border: 2px dashed black;
+    padding: 5px;
+}
+
+.main-menu {
+    display: flex;
+    gap: 50px;    
+}
+.logo {
+    border-right: 2px dashed black;
+    margin-right: auto;
+    padding-right: 100px;
+}
+
+.cta {
+    border-left: 2px dashed black;
+    margin-left: auto;
+    padding-left: 100px;
+}
+.navbar, .container {
+    margin: auto 100px;
+}
+
+/* LAYOUT 1 */
+
+.layout-1 {
+    background-color: blue;
+}
+
+.container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 12px 20px;
+}
+
+.row {
+    display: flex;    
+}
+
+.col {
+    width: 400px;
+    height: 200px;
+}
+
+#task {
+    background-color: rgb(231, 100, 122);
+}
+
+/* SECTION 2 */
+
+.w-75 {
+    background-color: dodgerblue;
+    width: 75%;
+    padding: 80px 100px;
+}
+
+.w-25 {
+    background-color: pink;
+}
+
+/* SECTION 3 */
+
+.layout-3, .layout-5{
+    background-color: lightgray;
+}
+
+/* SECTION 5 */
+
+.h-lg {
+    width: 600px;
+    height: 500px;
+    background-color: green;
+}
+
+/* SECTION 6 */
+
+.layout-6{
+    background-color: rgb(39, 38, 38);
+}
+
+.h-td {
+    background-color: brown;
+    width: 600px;
+}
+
+.col-15 {
+    background-color: aquamarine;
+    width: calc(100% / 2); 
+}
+
+hr{
+    color: aliceblue;
+}
+
+/* FOOTER */
+
+.footer {
+    background-color: rgb(39, 38, 38);
+}
+
+.foot-bar {
+    border: none;
+    background-color: aqua;
+    padding: 20px 0;
+}
+
+.l-ft {
+    border: 2px dashed black;
+    background-color: coral;
+    padding: 5px;
+}
+    
+
+/* DEBUG RULES */
+
+.debug .row > * {
+    border: 2px dashed black;
+}    
